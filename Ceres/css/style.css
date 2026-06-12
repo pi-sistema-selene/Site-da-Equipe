@@ -386,7 +386,8 @@ img {
   background: linear-gradient(90deg, var(--gold), var(--gold-dark));
 }
 .project-icon {
-  font-size: 52px;
+  height: 76px;
+  width: 76px;
   margin-bottom: 20px;
 }
 .project-card h3 {
@@ -431,9 +432,13 @@ img {
 .feature-check {
   color: var(--green);
   font-weight: 700;
+  height: 24px;
+  width: 18px;
 }
 .selene .feature-check {
   color: var(--gold);
+  height: 24px;
+  width: 18px;
 }
 .greenrise .feature-list li {
   color: var(--muted);
@@ -610,11 +615,14 @@ img {
 }
 .tick {
   color: var(--green);
-  font-weight: 800;
+  height: 24px;
+  width: 18px;
   margin-top: 1px;
 }
 .selene-detail .tick {
   color: var(--gold);
+  height: 24px;
+  width: 18px;
 }
 .metrics {
   display: grid;
@@ -729,8 +737,12 @@ img {
   border-bottom-color: var(--gold);
 }
 .why-icon {
-  font-size: 44px;
+  font-size: 60px;
+  height: 60px;
+  width: 60px;
   margin-bottom: 16px;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 .why-card h4 {
   font-size: 1rem;
